@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duolingo Clone</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <div class="logo">EduApp</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="lesson-section">
+            <h2>Available Lessons</h2>
+            <div class="lessons">
+                <div class="lesson-card">
+                    <h3>Lesson 1: Basics</h3>
+                    <p>Learn the basics of the language.</p>
+                    <button onclick="startLesson(1)">Start Lesson</button>
+                </div>
+                <div class="lesson-card">
+                    <h3>Lesson 2: Greetings</h3>
+                    <p>Learn how to greet people.</p>
+                    <button onclick="startLesson(2)">Start Lesson</button>
+                </div>
+                <!-- Add more lessons as needed -->
+            </div>
+        </section>
+    </main>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
